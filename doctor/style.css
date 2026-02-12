@@ -1,0 +1,269 @@
+@import './reset.css';
+
+.page-congratulation {
+    margin: 0;
+    padding: 0;
+    background-color: #faf9f5;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+.email {
+    width: 100%;
+    background-color: #faf9f5;
+}
+
+.email__wrapper {
+    width: 100%;
+    padding: 30px 10px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 600px) {
+    .email__wrapper {
+        padding: 15px 5px;
+    }
+}
+
+.email__container {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 8px 30px rgba(8, 37, 103, 0.06);
+}
+
+@media screen and (max-width: 600px) {
+    .email__container {
+        border-radius: 0;
+        box-shadow: none;
+    }
+}
+
+.header {
+    background-color: #082567;
+    border-radius: 16px 16px 0 0;
+}
+
+@media screen and (max-width: 600px) {
+    .header {
+        border-radius: 0;
+    }
+}
+
+.header__inner {
+    padding: 28px 30px 22px;
+}
+
+@media screen and (max-width: 600px) {
+    .header__inner {
+        padding: 24px 20px;
+    }
+}
+
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+@media screen and (max-width: 600px) {
+    .header__content {
+        flex-wrap: wrap;
+    }
+}
+
+.header__brand {
+    flex: 1;
+}
+
+.header__title {
+    margin: 0;
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+@media screen and (max-width: 600px) {
+    .header__title {
+        font-size: 22px;
+        letter-spacing: 1px;
+    }
+}
+
+.header__sup {
+    font-size: 16px;
+    top: -0.2em;
+    position: relative;
+}
+
+@media screen and (max-width: 600px) {
+    .header__sup {
+        font-size: 14px;
+    }
+}
+
+.header__subtitle {
+    margin: 6px 0 0;
+    color: #e4cd9c;
+    font-size: 15px;
+    font-weight: 300;
+    opacity: 0.9;
+    line-height: 1.4;
+}
+
+@media screen and (max-width: 600px) {
+    .header__subtitle {
+        font-size: 14px;
+    }
+}
+
+.header__decoration {
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .header__decoration {
+        display: none;
+    }
+}
+
+.header__star {
+    color: #e4cd9c;
+    font-size: 38px;
+    line-height: 1;
+    display: inline-block;
+}
+
+@media screen and (max-width: 600px) {
+    .header__star {
+        font-size: 32px;
+    }
+}
+
+.content {
+    background-color: #ffffff;
+}
+
+.content__inner {
+    padding: 40px 40px 30px;
+}
+
+@media screen and (max-width: 600px) {
+    .content__inner {
+        padding: 24px 16px;
+    }
+}
+
+.content__greeting {
+    margin: 0 0 12px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #082567;
+    letter-spacing: -0.3px;
+    line-height: 1.3;
+}
+
+@media screen and (max-width: 600px) {
+    .content__greeting {
+        font-size: 22px;
+    }
+}
+
+.content__greeting-span {
+    color: #082567;
+}
+
+.content__text-group {
+    margin-bottom: 28px;
+}
+
+.content__paragraph {
+    margin: 0 0 22px;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #082567;
+}
+
+@media screen and (max-width: 600px) {
+    .content__paragraph {
+        font-size: 17px;
+        line-height: 1.5;
+    }
+}
+
+.content__paragraph--medium {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+@media screen and (max-width: 600px) {
+    .content__paragraph--medium {
+        font-size: 16px;
+    }
+}
+
+.content__paragraph:last-child {
+    margin-bottom: 0;
+}
+
+.content__brand {
+    color: #082567;
+    font-weight: 600;
+}
+
+.content__brand-sup {
+    font-size: 12px;
+    position: relative;
+    top: -0.2em;
+}
+
+.content__accent {
+    color: #b4914a;
+    border-bottom: 1px solid #e4cd9c;
+    padding-bottom: 2px;
+    font-weight: 500;
+}
+
+.content__highlight {
+    margin: 30px 0 38px;
+}
+
+.highlight {
+    background-color: #fbf7f0;
+    border-left: 6px solid #082567;
+    border-radius: 0 12px 12px 0;
+    padding: 16px 24px;
+}
+
+@media screen and (max-width: 600px) {
+    .highlight {
+        padding: 14px 20px;
+    }
+}
+
+.highlight__text {
+    margin: 0;
+    font-size: 19px;
+    font-weight: 500;
+    color: #082567;
+    letter-spacing: 0.2px;
+    line-height: 1.5;
+}
+
+@media screen and (max-width: 600px) {
+    .highlight__text {
+        font-size: 18px;
+    }
+}
+
+.highlight__accent {
+    color: #b4914a;
+    font-weight: 600;
+}
